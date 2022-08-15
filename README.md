@@ -8,9 +8,6 @@
 [![GitHub Contributors](https://img.shields.io/github/contributors/OlsonBolson-dev/Hyperium-Store?logo=github)](https://github.com/OlsonBolson-dev/Hyperium-Store/blob/main/README.md#contributors)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/OlsonBolson-dev/Hyperium-Store?logo=github)](https://github.com/OlsonBolson-dev/Hyperium-Store/commit/main)
 
-[![GitHub language count](https://img.shields.io/github/languages/count/OlsonBolson-dev/Hyperium-Store?logo=github)](#)
-[![GitHub top language](https://img.shields.io/github/languages/top/OlsonBolson-dev/Hyperium-Store?label=top%20language&logo=github)](#)
-
 i'll leave this part for [@Tvaqex](https://github.com/Tvaqex), he'll do it 🙂
 
 ## Contributors
