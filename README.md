@@ -1,5 +1,6 @@
-[![Hyperium Store](https://img.shields.io/badge/Hyperium_Store-Website-2560e8?style=for-the-badge)](https://hyperiumstore.com)
-[![Discord](https://img.shields.io/discord/1001998332807352380?color=5865F2&label=Discord%20Server&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/4cGHt8W7JX)
+[![Hyperium Store](https://img.shields.io/badge/Hyperium_Store-Website-2560e8)](https://hyperiumstore.com)
+[![Discord](https://img.shields.io/discord/1001998332807352380?&label=Discord%20Server&logo=discord&logoColor=white)](https://discord.gg/4cGHt8W7JX)
+[![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=OlsonBolson-dev/Hyperium-Store.visitor-badge&left_text=Hyperium%20%20Page%20Visits)](#)
 
 # Hyperium Store
 
