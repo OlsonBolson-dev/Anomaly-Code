@@ -8,9 +8,9 @@
 # Hyperium Store
 
 ## Decription
-i'll leave this part for [Tvaqex](https://github.com/Tvaqex), he'll do it 🙂
+i'll leave this part for [@Tvaqex](https://github.com/Tvaqex), he'll do it 🙂
 
 ## Contributors
 | [<img src="https://avatars.githubusercontent.com/u/74601916" width="100"/>](https://github.com/OlsonBolson-dev) | [<img src="https://avatars.githubusercontent.com/u/111024392" width="100"/>](https://github.com/Tvaqex) |
 | --- | --- |
-| [OlsonBolson](https://github.com/OlsonBolson-dev) | [Tvaqex](https://github.com/Tvaqex) |
+| [@OlsonBolson](https://github.com/OlsonBolson-dev) | [@Tvaqex](https://github.com/Tvaqex) |
