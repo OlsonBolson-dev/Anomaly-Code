@@ -1,4 +1,4 @@
-[![Online Store](https://img.shields.io/badge/Online_Store-Website-2560e8)](https://hyperiumstore.com)
+[![Online Store](https://img.shields.io/badge/Online_Store-Website-2560e8)](https://store.com/)
 [![Discord](https://img.shields.io/discord/1001998332807352380?&label=Discord%20Server&logo=discord&logoColor=white)](https://discord.gg/4cGHt8W7JX)
 [![visitors](https://visitor-badge.glitch.me/badge?page_id=OlsonBolson-dev/Online-Store.visitor-badge&left_text=Our%20Store%20%20Page%20Visits)](#)
 
