@@ -1,4 +1,4 @@
-[![Anomaly Code](https://img.shields.io/badge/Anomaly_Code-Website-2560e8)](https://Code.com/)
+[![Anomaly Code](https://img.shields.io/badge/Anomaly_Code-Website-2560e8)](https://anomalycode.pl)
 [![Discord](https://img.shields.io/discord/1001998332807352380?&label=Discord%20Server&logo=discord&logoColor=white)](https://discord.gg/4cGHt8W7JX)
 [![visitors](https://visitor-badge.glitch.me/badge?page_id=OlsonBolson-dev/Anomaly-Code.visitor-badge&left_text=Our%20Code%20%20Page%20Visits)](#)
 
