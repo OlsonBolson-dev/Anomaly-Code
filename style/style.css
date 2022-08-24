@@ -10,10 +10,10 @@
   --bg-dark: rgb(48, 48, 50);
   --bg-light: rgb(57, 57, 59);
 
-  --clr-accent: rgb(148, 82, 209);
+  --clr-accent-1: rgb(60, 57, 216);
+  --clr-accent-2: rgb(216, 57, 60);
 
-  --clr-shadow-dark: rgb(102, 102, 102);
-  --clr-shadow-light: rgb(153, 153, 153);
+  --clr-btn-shadow: rgb(168, 168, 168);
 
   --transition-speed: 0.5s;
 }
@@ -30,6 +30,7 @@ main {
   margin-right: 1rem; 
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
@@ -44,9 +45,10 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--clr-accent);
+  background: var(--clr-accent-2);
 }
 
+/* Navbar */
 .navbar {
   position: fixed;
   background-color: var(--bg-darker);
@@ -102,11 +104,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .fa-primary {
-  color: var(--clr-accent);
+  color: var(--clr-accent-1);
 }
 
 .fa-secondary {
-  color: var(--clr-accent);
+  color: var(--clr-accent-2);
 }
 
 .fa-primary,
@@ -142,6 +144,15 @@ body::-webkit-scrollbar-thumb {
   transform: rotate(-180deg);
 }
 
+/* LOGO-like effect */
+/* .logo-text:before {
+  transition: var(--transition-speed);
+}
+.logo-text:hover {
+  text-shadow: -5px 5px blue, 5px -5px red;
+} */
+
+/* Text settings */
 .text_title {
   font-size: 1.5em;
   line-height: 1.5em;
@@ -154,6 +165,7 @@ body::-webkit-scrollbar-thumb {
   color: var(--txt-light);
 }
 
+/* Products grid */
 .grid-cards {
   display: grid;
   gap: 2em;
@@ -210,6 +222,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 
+/* Card buttons */
 .card_button {
   margin-left: auto;
   padding: 0.5em 1em;
@@ -222,22 +235,26 @@ button.card_button {
   text-align: center;
   text-decoration: none;
   outline: none;
-  background-color: var(--clr-accent);
+  background-color: var(--clr-accent-1);
   border: none;
   border-radius: 0.8em;
-  box-shadow: 0 0.4em var(--clr-shadow-light);
+  box-shadow: 0 0.4em var(--clr-btn-shadow);
+  filter: grayscale(0%) opacity(1);
 }
 
 button.card_button:hover {
-  background-color: var(--clr-accent);
+  background-color: var(--clr-accent-1);
+  filter: grayscale(20%) opacity(1);
 }
 
 button.card_button:active {
-  background-color: var(--clr-accent);
-  box-shadow: 0 0.3em var(--clr-shadow-dark);
+  background-color: var(--clr-accent-1);
+  box-shadow: 0 0.15em var(--clr-btn-shadow);
+  filter: grayscale(50%) opacity(1);
   transform: translateY(0.3em);
 }
 
+/* Theme settings */
 .dark {
   --txt-dark: rgb(182, 182, 182);
   --txt-light: rgb(236, 240, 241);
@@ -249,8 +266,8 @@ button.card_button:active {
 }
 
 .light {
-  --txt-dark: rgb(0, 0, 0);
-  --txt-light: rgb(50, 50, 50);
+  --txt-dark: rgb(182, 182, 182);
+  --txt-light: rgb(236, 240, 241);
 
   --bg-darkest: rgb(20, 20, 24);
   --bg-darker: rgb(30, 30, 36);
@@ -271,7 +288,7 @@ button.card_button:active {
 }
 
 
-/* Small screens */
+/* Small screens - navbar */
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
@@ -296,7 +313,7 @@ button.card_button:active {
   }
 }
 
-/* Large screens */
+/* Large screens - navbar*/
 @media only screen and (min-width: 600px) {
   .navbar {
     top: 0;
