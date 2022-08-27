@@ -1,25 +1,41 @@
 :root {
+  /* FONT */
   font-size: 16px;
   font-family: "Roboto", "Open Sans", "Lato", sans-serif, serif;
   
-  --txt-dark: rgb(182, 182, 182);
-  --txt-light: rgb(236, 240, 241);
+  /* TEXT */
+  --txt-primary: rgb(182, 182, 182);
+  --txt-secondary: rgb(236, 240, 241);
 
-  --bg-darkest: rgb(20, 20, 24);
-  --bg-darker: rgb(30, 30, 36);
-  --bg-dark: rgb(48, 48, 50);
-  --bg-light: rgb(57, 57, 59);
+  /* BACKGROUNDS */
+  --bg-main: rgb(0, 10, 19); /* body{background} */
+  --bg-card: white; /* .card{background} */
+  --bg-secondary-1: rgb(15, 26, 35); /* .navbar{background} */
+  --bg-secondary-2: rgb(10, 21, 30); /* .nav-link:hover{background} & .logo{background} */
+  --bg-secondary-3: rgb(15, 26, 35); /* body::-webkit-scrollbar-track{background} */
+  
 
+  /* ACCENTS */
   --clr-accent-1: rgb(60, 57, 216);
   --clr-accent-2: rgb(216, 57, 60);
+  --clr-accent-3: rgb(255, 0, 251);
 
+  /* SHADOWS */
   --clr-btn-shadow: rgb(168, 168, 168);
 
+  /* SPEED */
   --transition-speed: 0.5s;
+
+  /* LOGO */
+  --bg-dark-blue: rgb(0, 10, 19);
+  --txt-font: rgb(255, 255, 255);
+  --txt-shadow-bottom-left: rgb(0, 21, 255);
+  --txt-shadow-middle: rgb(255, 0, 251);
+  --txt-shadow-upper-right: rgb(254, 0, 0);
 }
 
 body {
-  background-color: var(--bg-dark);
+  background-color: var(--bg-main);
   margin: 0;
   padding: 0;
 }
@@ -41,7 +57,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--bg-darker);
+  background: var(--bg-secondary-3);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -51,11 +67,11 @@ body::-webkit-scrollbar-thumb {
 /* Navbar */
 .navbar {
   position: fixed;
-  background-color: var(--bg-darker);
+  background-color: var(--bg-secondary-1);
   transition: width var(--transition-speed) ease;
   overflow: scroll;
 
-  border-radius: 0.8rem;;
+  /* border-radius: 0.8rem; */
 }
 
 .navbar-nav {
@@ -80,7 +96,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   height: 5rem;
-  color: var(--txt-dark);
+  color: var(--txt-primary);
   text-decoration: none;
   filter: grayscale(100%) opacity(0.7);
   transition: var(--transition-speed);
@@ -88,8 +104,8 @@ body::-webkit-scrollbar-thumb {
 
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
-  background: var(--bg-darkest);
-  color: var(--txt-light);
+  background: var(--bg-secondary-2);
+  color: var(--txt-primary);
 }
 
 .link-text {
@@ -121,8 +137,8 @@ body::-webkit-scrollbar-thumb {
   text-transform: uppercase;
   margin-bottom: 1rem;
   text-align: center;
-  color: var(--txt-light);
-  background: var(--bg-darkest);
+  color: var(--txt-primary);
+  background: var(--bg-secondary-2);
   font-size: 1.5rem;
   letter-spacing: 0.3ch;
   width: 100%;
@@ -156,13 +172,13 @@ body::-webkit-scrollbar-thumb {
 .text_title {
   font-size: 1.5em;
   line-height: 1.5em;
-  color: var(--txt-light);
+  color: var(--txt-primary);
 }
 
 .text_medium {
   font-size: 1em;
   line-height: 1em;
-  color: var(--txt-light);
+  color: var(--txt-primary);
 }
 
 /* Products grid */
@@ -177,7 +193,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card {
-  background-color: var(--bg-light);
+  background-color: var(--bg-card);
   display: flex;
   flex-direction: column;
   
@@ -256,23 +272,25 @@ button.card_button:active {
 
 /* Theme settings */
 .dark {
-  --txt-dark: rgb(182, 182, 182);
-  --txt-light: rgb(236, 240, 241);
+  --txt-primary: rgb(182, 182, 182);
+  --txt-primary: rgb(236, 240, 241);
 
-  --bg-darkest: rgb(20, 20, 24);
-  --bg-darker: rgb(30, 30, 36);
-  --bg-dark: rgb(48, 48, 50);
-  --bg-light: rgb(57, 57, 59);
+  --bg-main: rgb(0, 10, 19);
+  --bg-card: rgb(0, 16, 25);
+  --bg-secondary-1: rgb(0, 26, 35);
+  --bg-secondary-2: rgb(0, 20, 30);
+  --bg-secondary-3: rgb(0, 26, 35);
 }
 
 .light {
-  --txt-dark: rgb(182, 182, 182);
-  --txt-light: rgb(236, 240, 241);
+  --txt-primary: rgb(182, 182, 182);
+  --txt-primary: rgb(236, 240, 241);
 
-  --bg-darkest: rgb(20, 20, 24);
-  --bg-darker: rgb(30, 30, 36);
-  --bg-dark: rgb(48, 48, 50);
-  --bg-light: rgb(57, 57, 59);
+  --bg-main: rgb(0, 10, 19);
+  --bg-card: rgb(0, 16, 25);
+  --bg-secondary-1: rgb(0, 26, 35);
+  --bg-secondary-2: rgb(0, 20, 30);
+  --bg-secondary-3: rgb(0, 26, 35);
 }
 
 .theme-icon {
