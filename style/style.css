@@ -9,7 +9,7 @@
 
   /* BACKGROUNDS */
   --bg-main: rgb(0, 10, 19); /* body{background} */
-  --bg-card: white; /* .card{background} */
+  --bg-card: rgb(5, 16, 25); /* .card{background} */
   --bg-secondary-1: rgb(15, 26, 35); /* .navbar{background} */
   --bg-secondary-2: rgb(10, 21, 30); /* .nav-link:hover{background} & .logo{background} */
   --bg-secondary-3: rgb(15, 26, 35); /* body::-webkit-scrollbar-track{background} */
