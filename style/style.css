@@ -4,15 +4,15 @@
   font-family: "Roboto", "Open Sans", "Lato", sans-serif, serif;
   
   /* TEXT */
-  --txt-primary: rgb(182, 182, 182);
-  --txt-secondary: rgb(236, 240, 241);
+  --txt-primary: rgb(236, 240, 241);
+  --txt-secondary: rgb(182, 182, 182);
 
   /* BACKGROUNDS */
   --bg-main: rgb(0, 10, 19); /* body{background} */
-  --bg-card: rgb(5, 16, 25); /* .card{background} */
-  --bg-secondary-1: rgb(15, 26, 35); /* .navbar{background} */
-  --bg-secondary-2: rgb(10, 21, 30); /* .nav-link:hover{background} & .logo{background} */
-  --bg-secondary-3: rgb(15, 26, 35); /* body::-webkit-scrollbar-track{background} */
+  --bg-card: rgb(9, 22, 32); /* .card{background} */
+  --bg-secondary-1: rgb(5, 17, 26); /* .navbar{background} */
+  --bg-secondary-2: rgb(11, 27, 38); /* .nav-link:hover{background} & .logo{background} */
+  --bg-secondary-3: rgb(0, 10, 19); /* body::-webkit-scrollbar-track{background} */
   
 
   /* ACCENTS */
@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .fa-secondary {
-  color: var(--clr-accent-2);
+  color: var(--clr-accent-3);
 }
 
 .fa-primary,
@@ -272,25 +272,25 @@ button.card_button:active {
 
 /* Theme settings */
 .dark {
-  --txt-primary: rgb(182, 182, 182);
-  --txt-primary: rgb(236, 240, 241);
+  /* --txt-primary: rgb(236, 240, 241);
+  --txt-secondary: rgb(182, 182, 182);
 
   --bg-main: rgb(0, 10, 19);
-  --bg-card: rgb(0, 16, 25);
-  --bg-secondary-1: rgb(0, 26, 35);
-  --bg-secondary-2: rgb(0, 20, 30);
-  --bg-secondary-3: rgb(0, 26, 35);
+  --bg-card: rgb(9, 22, 32);
+  --bg-secondary-1: rgb(5, 17, 26);
+  --bg-secondary-2: rgb(11, 27, 38);
+  --bg-secondary-3: rgb(0, 10, 19); */
 }
 
 .light {
-  --txt-primary: rgb(182, 182, 182);
   --txt-primary: rgb(236, 240, 241);
+  --txt-secondary: rgb(182, 182, 182);
 
   --bg-main: rgb(0, 10, 19);
-  --bg-card: rgb(0, 16, 25);
-  --bg-secondary-1: rgb(0, 26, 35);
-  --bg-secondary-2: rgb(0, 20, 30);
-  --bg-secondary-3: rgb(0, 26, 35);
+  --bg-card: rgb(9, 22, 32);
+  --bg-secondary-1: rgb(5, 17, 26);
+  --bg-secondary-2: rgb(11, 27, 38);
+  --bg-secondary-3: rgb(0, 10, 19);
 }
 
 .theme-icon {
