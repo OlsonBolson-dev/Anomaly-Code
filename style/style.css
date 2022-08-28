@@ -53,7 +53,7 @@ main {
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.3rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -62,6 +62,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: var(--clr-accent-2);
+  border-radius: 50px;
 }
 
 /* Navbar */
