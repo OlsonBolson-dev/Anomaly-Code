@@ -2,18 +2,16 @@
   /* FONT */
   font-size: 16px;
   font-family: "Roboto", "Open Sans", "Lato", sans-serif, serif;
-  
+
   /* TEXT */
   --txt-primary: rgb(236, 240, 241);
-  --txt-secondary: rgb(182, 182, 182);
 
   /* BACKGROUNDS */
   --bg-main: rgb(0, 10, 19); /* body{background} */
   --bg-card: rgb(9, 22, 32); /* .card{background} */
   --bg-secondary-1: rgb(5, 17, 26); /* .navbar{background} */
-  --bg-secondary-2: rgb(11, 27, 38); /* .nav-link:hover{background} & .logo{background} */
+  --bg-secondary-2: rgb(0, 10, 19); /* .nav-link:hover{background} & .logo{background} */
   --bg-secondary-3: rgb(0, 10, 19); /* body::-webkit-scrollbar-track{background} */
-  
 
   /* ACCENTS */
   --clr-accent-1: rgb(60, 57, 216);
@@ -43,7 +41,7 @@ body {
 main {
   padding: 3rem 0;
   margin-left: 5rem;
-  margin-right: 1rem; 
+  margin-right: 1rem;
 }
 
 /* Scrollbar */
@@ -63,6 +61,14 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: var(--clr-accent-2);
   border-radius: 50px;
+}
+
+/* HEADER */
+.logo-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 /* Navbar */
@@ -187,7 +193,7 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   gap: 2em;
   grid-template-columns: repeat(3, minmax(20em, 1fr));
-  
+
   padding: 3rem 0;
   margin-left: 20%;
   margin-right: 20%;
@@ -197,9 +203,9 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--bg-card);
   display: flex;
   flex-direction: column;
-  
+
   border-radius: 0.8em;
-  
+
   transition: var(--transition-speed);
 }
 
@@ -213,7 +219,7 @@ body::-webkit-scrollbar-thumb {
   padding-top: 13rem;
   overflow: hidden;
   position: relative;
-  
+
   border-radius: 0.8em;
 }
 
@@ -274,7 +280,6 @@ button.card_button:active {
 /* Theme settings */
 .dark {
   /* --txt-primary: rgb(236, 240, 241);
-  --txt-secondary: rgb(182, 182, 182);
 
   --bg-main: rgb(0, 10, 19);
   --bg-card: rgb(9, 22, 32);
@@ -284,14 +289,27 @@ button.card_button:active {
 }
 
 .light {
-  --txt-primary: rgb(236, 240, 241);
-  --txt-secondary: rgb(182, 182, 182);
+  /* --txt-primary: rgb(236, 240, 241);
 
   --bg-main: rgb(0, 10, 19);
   --bg-card: rgb(9, 22, 32);
   --bg-secondary-1: rgb(5, 17, 26);
   --bg-secondary-2: rgb(11, 27, 38);
-  --bg-secondary-3: rgb(0, 10, 19);
+  --bg-secondary-3: rgb(0, 10, 19); */
+}
+
+.dracula {
+  --txt-primary: rgb(248, 248, 242);
+
+  --bg-main: rgb(40, 42, 54);
+  --bg-card: rgb(68, 71, 90);
+  --bg-secondary-1: rgb(68, 71, 90);
+  --bg-secondary-2: rgb(98, 114, 164);
+  --bg-secondary-3: rgb(40, 42, 54);
+
+  --clr-accent-1: rgb(80, 250, 123);
+  --clr-accent-2: rgb(255, 85, 85);
+  --clr-accent-3: rgb(255, 121, 198);
 }
 
 .theme-icon {
@@ -305,7 +323,6 @@ button.card_button:active {
 .light #lightIcon {
   display: block;
 }
-
 
 /* Small screens - navbar */
 @media only screen and (max-width: 600px) {
@@ -348,13 +365,11 @@ button.card_button:active {
     display: inline;
   }
 
-  .navbar:hover .logo svg
-  {
+  .navbar:hover .logo svg {
     margin-left: 11rem;
   }
 
-  .navbar:hover .logo-text
-  {
+  .navbar:hover .logo-text {
     left: 0px;
   }
 }
