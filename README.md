@@ -9,7 +9,7 @@
 [![GitHub Contributors](https://img.shields.io/github/contributors/OlsonBolson-dev/Anomaly-Code?logo=github)](https://github.com/OlsonBolson-dev/Anomaly-Code/blob/main/README.md#contributors)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/OlsonBolson-dev/Anomaly-Code?logo=github)](https://github.com/OlsonBolson-dev/Anomaly-Code/commit/main)
 
-i'll leave this part for [@Tvaqex](https://github.com/Tvaqex), he'll do it 🙂
+well, it's unfinnished and probably won't be :/
 
 ## Contributors
 | [<img src="https://avatars.githubusercontent.com/u/74601916" width="100"/>](https://github.com/OlsonBolson-dev) | [<img src="https://avatars.githubusercontent.com/u/111024392" width="100"/>](https://github.com/Tvaqex) |
