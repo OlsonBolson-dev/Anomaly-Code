@@ -12,6 +12,6 @@
 It was ment to be an online shop. There is a small chance for continuing the project. :/
 
 ## Contributors
-| [<img src="https://avatars.githubusercontent.com/u/74601916" width="100"/>](https://github.com/OlsonBolson-dev) | [<img src="https://avatars.githubusercontent.com/u/111024392" width="100"/>](https://github.com/Tvaqex) |
+| [<img src="https://avatars.githubusercontent.com/u/74601916" width="100"/>](https://github.com/OlsonBolson-dev) | [<img src="https://avatars.githubusercontent.com/u/111024392" width="100"/>](https://github.com/GreedusAG) |
 | --- | --- |
-| [@OlsonBolson](https://github.com/OlsonBolson-dev) | [@fiskeL](https://github.com/fiskel2137) |
+| [@OlsonBolson](https://github.com/OlsonBolson-dev) | [@Greedus](https://github.com/GreedusAG) |
